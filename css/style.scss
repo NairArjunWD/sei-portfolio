@@ -1,23 +1,31 @@
 $primary: red;
 $text: white;
-$background: pink;
+$background: rgb(40, 40, 40);
+$background2: rgb(80, 49, 90);
 
 
 body {
     background-color: $background;
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+    color: white;
 }
 
 p {
     color: $text;
 }
 
-
+ 
 
 h1 {
     color: $primary;
 } 
+
+// ABOUT
+
+.about {
+
+}
 
 // SKILLS ######################################################################
 
@@ -33,4 +41,172 @@ h1 {
 
 h2 {
     
+}
+
+// .projects img{
+//     // margin: 20px 20px 0 0;  
+//     // border: 5px solid #333;
+//     // overflow: auto
+//     // display: flex;
+//     height: 100px;
+//     float: right;
+
+// }
+
+// .screenshots {
+//     // display: block;
+//     // height: 5%;
+//     // width: auto;
+//     // height: 200px;
+//     // width: 200px;
+// }
+
+// .info {
+//     // display: inline-block;
+//     // position: relative;
+//     // margin: 1%;
+//     // float: left;
+//     width: 50%;
+//     // height: 100px;
+//     // background-color: green;
+//     // margin-left: 210px
+//     // height: 200px;
+//     // width: 200px;
+// }
+
+// .screenshots {
+//     border: 3px solid blue;
+//     padding: 20px 40px 40px;
+//     max-width: 640px;
+//     &__image {
+//         display: inline-block;
+//         vertical-align: left;
+//         width: 40%;
+//         margin: 20px 30px 0 0;
+//     }
+//     &__text {
+//         display: inline-block;
+//         width: 40%;
+//         @media (max-width: 620px) {
+//             width: 100%;
+//         }
+//     }
+// }
+
+
+// img {
+//     object-fit: scale-down
+// }
+
+.col-text {
+  height:30em;
+}
+.grid-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  flex-direction: row; 
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+}
+.col {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.col-left {
+  -webkit-box-ordinal-group:-1;
+  -webkit-order: -1;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.col-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Aligner-item {
+  width: 60%;
+}
+.col-image {
+  background-size: cover;
+  background-position:center center;
+}
+
+@media (max-width: 640px) {
+  .grid-flex {
+    height: 40em;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+   }
+  .col {
+    order:vertical;
+  }
+  .col-left {
+    -webkit-box-ordinal-group:0;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .col-text div p {
+    padding: 1em;
+  }
+  .Aligner-item {
+    width: 90%;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.textbox-1 {
+	font-size: 1.25em;
+	text-align: justify;
+}
+.row {
+	display: flex;
+	justify-content:space-around;
+	padding:25px 0 ;
+	max-width:1280px;
+	margin:auto;
+	
+}
+.w50 {
+	flex: 0 0 45%;
+
+}
+.object-fit{
+	overflow:hidden;
+	position:relative;
+}
+.object-fit img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	height:auto;
+	width:auto;
+	min-width:100%;
+	min-height:100%;
+	transform:translate(-50%, -50%);
+}
+@supports (object-fit: cover) {
+  .object-fit img  {
+    position: static;
+    height: 100%;
+    width: 100%;
+    transform: none;
+    object-fit: scale-down;
+  }
 }
