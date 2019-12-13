@@ -1,0 +1,23 @@
+body {
+  background-color: pink;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: red;
+}
+
+.skills {
+  display: inline-block;
+  position: relative;
+  margin: 1%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: lightgrey;
+}
+/*# sourceMappingURL=style.css.map */

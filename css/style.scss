@@ -1,0 +1,36 @@
+$primary: red;
+$text: white;
+$background: pink;
+
+
+body {
+    background-color: $background;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+p {
+    color: $text;
+}
+
+
+
+h1 {
+    color: $primary;
+} 
+
+// SKILLS ######################################################################
+
+.skills {
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    float: left;
+    width: 23%;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+h2 {
+    
+}
