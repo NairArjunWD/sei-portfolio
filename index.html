@@ -7,25 +7,28 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>HTML5 boilerplate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 
 <body>
 
     <div className="App">
         <nav>
+            <a>Arjun Nair</a> |
             <a>(562)-556-3925</a> |
             <a>nair.arjunr94@gmail.com</a> |
-            <a href="/js/">GA Profile</a> |
+            <a href="https://profiles.generalassemb.ly/profiles/arjun-nair">GA Profile</a> |
             <a href="https://www.linkedin.com/in/arjun-nair-software-engineer/">LinkedIn</a> |
             <a href="/https://github.com/NairArjunWD/">GitHub</a>
         </nav>
         <h1>Arjun Nair</h1>
         <div class='about'>
-            <h2>About</h2>
+            <!-- <h2>About</h2> -->
             <p>I’m a software engineer with a strong background in the backend with a knowledge of networking. Having
                 experience with networking and cyber security, I am adept at working both with hardware and software.
                 Whenever I’m assigned a project, I love researching new concepts to implement to improve what was assigned.
@@ -40,33 +43,80 @@
                         <h3>FrontEnd</h3>
                         <ul>
                             <li>HTML/CSS</li>
-                            <li>Javascript</li>
-                            <li>JQuery</li>
-                            <li>React</li>
-                            <li>Bootstrap</li>
-                            <li>Materialize</li>
+                            <li>
+                                <i class="devicon-javascript-plain colored"></i>
+                                Javascript
+                            </li>
+                            <li>
+                                <i class="devicon-jquery-plain colored"></i>
+                                JQuery
+                            </li>
+                            <li>
+                                <i class="devicon-react-original colored"></i>
+                                React
+                            </li>
+                            <li>
+                                <i class="devicon-bootstrap-plain colored"></i>
+                                Bootstrap
+                            </li>
+                            <li>
+                                Materialize
+                            </li>
                         </ul>
                     </div>
+                    <!-- <div id="pic"></div> -->
                 </div>
     
                 <div class='skills'>
                     <div class="back">
                         <h3>BackEnd</h3>
                         <ul>
-                            <li>Python</li>
-                            <li>Ruby</li>
-                            <li>Flask</li>
-                            <li>VB.NET</li>
-                            <li>MERN</li>
-                            <li>Node.js</li>
-                            <li>Express.js</li>
-                            <li>pugjs</li>
-                            <li>CRUD</li>
-                            <li>Async/ Await</li>
-                            <li>Sessions</li>
-                            <li>Ubuntu</li>
-                            <li>Git</li>
-                            <li>GitHub</li>
+                            <li>
+                                <i class="devicon-python-plain colored"></i>
+                                Python
+                            </li>
+                            <li>
+                                <i class="devicon-ruby-plain colored"></i>
+                                Ruby
+                            </li>
+                            <li>
+                                Flask
+                            </li>
+                            <li>
+                                VB.NET
+                            </li>
+                            <li>
+                                MERN
+                            </li>
+                            <li>
+                                <i class="devicon-nodejs-plain colored"></i>
+                                Node.js
+                            </li>
+                            <li>
+                                Express.js
+                            </li>
+                            <li>
+                                pugjs
+                            </li>
+                            <li>
+                                CRUD
+                            </li>
+                            <li>
+                                Async/ Await
+                            </li>
+                            <li>
+                                Sessions
+                            </li>
+                            <li>
+                                <i class="devicon-ubuntu-plain colored"></i>
+                                Ubuntu
+                            </li>
+                            <li>
+                                Git
+                            </li>
+                            <li>
+                                GitHub
+                            </li>
                         </ul>
                     </div>
     
@@ -76,11 +126,24 @@
                     <div class="data">
                         <h3>Database</h3>
                         <ul>
-                            <li>Oracle SQL</li>
-                            <li>PostgreSQL</li>
-                            <li>MongoDB</li>
-                            <li>Mongoose</li>
-                            <li>sqlite</li>
+                            <li>
+                                <i class="devicon-oracle-original colored"></i>
+                                Oracle SQL
+                            </li>
+                            <li>
+                                <i class="devicon-postgresql-plain colored"></i>
+                                PostgreSQL
+                            </li>
+                            <li>
+                                <i class="devicon-mongodb-plain colored"></i>
+                                MongoDB
+                            </li>
+                            <li>
+                                Mongoose
+                            </li>
+                            <li>
+                                sqlite
+                            </li>
                         </ul>
                     </div>
     
@@ -105,8 +168,8 @@
         <div class="row">
             <div class="w50 textbox-1">
                 <h3>Chronos</h3>
-                <p>
-                    An educational application for history teachers to create timelines of events using a Wikipedia API.
+                <p class="description">
+                    An educational application for history teachers to create timelines of events using a Wikipedia API. The program has two CRUD functions; the first function creates the timeline object and the second function creates the events in the timeline. You can include videos and infographics as extra media to help understand the event better. The Wikipedia API is used so when you type in the name of the person or event, the intro of the Wikipedia article pops up. 
                 
                     <ul class="list-unstyled">
                         <li>
@@ -308,6 +371,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+    <script src='js/app.js'></script>
 
 </body>
 

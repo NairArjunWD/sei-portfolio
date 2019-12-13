@@ -2,12 +2,15 @@ $primary: red;
 $text: white;
 $background: rgb(40, 40, 40);
 $background2: rgb(80, 49, 90);
+$about: rgb(52, 52, 52);
 
 
 body {
     background-color: $background;
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+    // font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    // monospace;
+    font-family: 'Gupter', serif;
+
     color: white;
 }
 
@@ -17,9 +20,9 @@ p {
 
  
 
-h1 {
-    color: $primary;
-} 
+// h1 {
+//     color: $primary;
+// } 
 
 // ABOUT
 
@@ -34,69 +37,15 @@ h1 {
     position: relative;
     margin: 1%;
     float: left;
-    width: 23%;
+    width: 20%;
     height: 400px;
-    background-color: lightgrey;
+    // background-color: lightgrey;
 }
 
 h2 {
     
 }
 
-// .projects img{
-//     // margin: 20px 20px 0 0;  
-//     // border: 5px solid #333;
-//     // overflow: auto
-//     // display: flex;
-//     height: 100px;
-//     float: right;
-
-// }
-
-// .screenshots {
-//     // display: block;
-//     // height: 5%;
-//     // width: auto;
-//     // height: 200px;
-//     // width: 200px;
-// }
-
-// .info {
-//     // display: inline-block;
-//     // position: relative;
-//     // margin: 1%;
-//     // float: left;
-//     width: 50%;
-//     // height: 100px;
-//     // background-color: green;
-//     // margin-left: 210px
-//     // height: 200px;
-//     // width: 200px;
-// }
-
-// .screenshots {
-//     border: 3px solid blue;
-//     padding: 20px 40px 40px;
-//     max-width: 640px;
-//     &__image {
-//         display: inline-block;
-//         vertical-align: left;
-//         width: 40%;
-//         margin: 20px 30px 0 0;
-//     }
-//     &__text {
-//         display: inline-block;
-//         width: 40%;
-//         @media (max-width: 620px) {
-//             width: 100%;
-//         }
-//     }
-// }
-
-
-// img {
-//     object-fit: scale-down
-// }
 
 .col-text {
   height:30em;
@@ -180,7 +129,8 @@ html {
 	justify-content:space-around;
 	padding:25px 0 ;
 	max-width:1280px;
-	margin:auto;
+    margin:auto;
+    font-size: 14px;
 	
 }
 .w50 {
@@ -209,4 +159,46 @@ html {
     transform: none;
     object-fit: scale-down;
   }
+}
+
+#pic{
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  margin-right: 20px;
+  float:left;
+}
+
+.p1:hover {
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ");
+}
+
+// .front {
+//     background-image: url("https://cdn4.iconfinder.com/data/icons/office-equipment-cartoon/512/g6985-512.png");
+// }
+
+.about {
+    // background-color: $about;
+    font-size: 20px;
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.lang-used {
+    font-size: 12px;
 }

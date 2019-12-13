@@ -1,6 +1,6 @@
 body {
   background-color: #282828;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Gupter', serif;
   color: white;
 }
 
@@ -8,22 +8,14 @@ p {
   color: white;
 }
 
-h1 {
-  color: red;
-}
-
 .skills {
   display: inline-block;
   position: relative;
   margin: 1%;
   float: left;
-  width: 23%;
+  width: 20%;
   height: 400px;
-  background-color: lightgrey;
 }
-
-
- /* PROJECTS */
 
 .col-text {
   height: 30em;
@@ -128,6 +120,7 @@ html {
   padding: 25px 0;
   max-width: 1280px;
   margin: auto;
+  font-size: 14px;
 }
 
 .w50 {
@@ -164,8 +157,39 @@ html {
        object-fit: scale-down;
   }
 }
-/*# sourceMappingURL=style.css.map */
 
-/* li {
-    font-size: 12px;
-} */
+#pic {
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+  margin-right: 20px;
+  float: left;
+}
+
+.p1:hover {
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ");
+}
+
+.about {
+  font-size: 20px;
+  padding: 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.lang-used {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
