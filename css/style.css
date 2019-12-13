@@ -22,6 +22,9 @@ h1 {
   background-color: lightgrey;
 }
 
+
+ /* PROJECTS */
+
 .col-text {
   height: 30em;
 }
@@ -162,3 +165,7 @@ html {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/* li {
+    font-size: 12px;
+} */
