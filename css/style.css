@@ -206,3 +206,11 @@ div.row {
 nav {
   text-align: center;
 }
+
+img {
+  transition: all ease 500ms;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
