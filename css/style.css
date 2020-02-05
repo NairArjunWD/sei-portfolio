@@ -214,3 +214,8 @@ img {
 img:hover {
     transform: scale(1.25);
 }
+
+.icons {
+  width: 15px;
+  height: 15px;
+}
