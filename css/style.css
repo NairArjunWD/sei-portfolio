@@ -219,3 +219,5 @@ img:hover {
   width: 15px;
   height: 15px;
 }
+
+a { color: inherit; } 
