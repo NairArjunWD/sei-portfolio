@@ -227,6 +227,6 @@ a {
   color: inherit; 
 } 
 
-.front, .back, .data, .security {
+.front, .back, .data, .security, .ga {
   padding-left: 1em;
 }
