@@ -230,3 +230,16 @@ a {
 .front, .back, .data, .security, .ga {
   padding-left: 1em;
 }
+
+.btn {
+  /* background-color: DodgerBlue; */
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  color: skyblue;
+}
