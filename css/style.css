@@ -242,3 +242,7 @@ a {
 .btn:hover {
   color: skyblue;
 }
+
+.download {
+  text-align: center;
+}
