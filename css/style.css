@@ -248,3 +248,7 @@ button {
     overflow: hidden;
     outline:none;
 } 
+
+img.sailor-moon {
+  width: 100%;
+}
