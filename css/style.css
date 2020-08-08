@@ -175,7 +175,7 @@ h2 {
 }
 
 .about {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 li.bullet {
@@ -251,4 +251,8 @@ button {
 
 img.sailor-moon {
   width: 100%;
+}
+
+ul.contact {
+  padding-left: 0;
 }
