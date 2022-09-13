@@ -234,6 +234,12 @@ i.devicon-heroku-plain{
    text-align: center;
 }
 
+i.devicon-amazonwebservices-original{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
 i.firebase {
    display: inline-block;
    width: 100%;
